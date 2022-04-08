@@ -8,6 +8,22 @@
     font-family: 'Poppins', sans-serif;
 }
 
+::-webkit-scrollbar-track {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+}
+
+*::-webkit-scrollbar {
+    width: 12px;
+    background-color: rgb(255 255 255);
+}
+
+*::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    border: 2px solid var(--scrollbar-bg, auto);
+    background:rgb(202, 219, 228);
+}
+
 .buttons {
     padding: .6rem 2rem;
     font-weight: 600;
